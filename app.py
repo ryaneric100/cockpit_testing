@@ -9,7 +9,7 @@ sns.set_theme(style="darkgrid", palette="deep", font="monospace")
 
 @st.cache
 def load_data():
-    df = pd.read_csv("../data/donors/donor.csv")
+    df = pd.read_csv("donor.csv")
     return df
 
 
